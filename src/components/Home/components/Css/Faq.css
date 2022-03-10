@@ -1,0 +1,66 @@
+.Faq-Background {
+ position: relative;
+ padding-bottom: 70px !important;
+ padding-top: 70px !important;
+ background-color: #fff;
+}
+
+.Faq-Content {
+ color: #313131 !important;
+ padding-top: 100px !important;
+ padding-bottom: 20px !important;
+ text-align: center;
+ height: 100%;
+}
+
+
+.Faq-grid {
+ background-color: #fff;
+ border-radius: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ box-shadow: 5px 5px 18px -1px rgba(0, 0, 0, 0.096);
+ width: 100%;
+ height: 100px !important;
+ margin: 30px;
+ transition: all 5ms;
+}
+
+.Faq-grid summary {
+ cursor: pointer;
+ list-style: none;
+ font: bold 1em Arial, Helvetica, sans-serif;
+ padding: 8px 0;
+ position: relative;
+ width: 100%;
+ list-style-image: none;
+}
+
+.Faq-grid details summary::-webkit-details-marker {
+ display:none;
+}
+
+.Faq-grid summary::-webkit-details-marker {
+ display: none
+}
+
+.Faq-grid summary:after {
+ background: white;
+ content: "+";
+ color: #000000;
+ float: left;
+ font-size: 30px;
+ line-height: 24px;
+ vertical-align: middle;
+ margin: -5px 10px 0 0;
+ padding: 0;
+ text-align: center;
+ width: 24px;
+ height: 24px;
+}
+
+.Faq-grid details[open] summary:after {
+ line-height: 22px;
+ content: "x";
+}

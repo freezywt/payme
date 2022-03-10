@@ -1,0 +1,53 @@
+
+.home-header {
+ padding-top: 80px !important;
+}
+
+.home-section {
+ position: relative;
+ z-index: -1;
+ background-image: url(./../../../../Assets/images/background.png);
+ background-position: top center;
+ background-repeat: repeat;
+ padding-bottom: 30px !important;
+ padding-top: 30px !important;
+}
+
+.home-content {
+ padding: 9rem 0 2rem !important;
+ color: whitesmoke;
+ text-align: left;
+}
+
+.Introduction-title {
+ font-family: "Gilroy-light" !important;
+ color: #313131;
+ margin-bottom: -15px;
+ font-size: 5.0em !important;
+ padding-left: 50px !important;
+}
+
+.home-about-section {
+ position: relative;
+ padding-bottom: 70px !important;
+ padding-top: 70px !important;
+}
+
+.Introduction-bold {
+ color: #25A4AD;
+ font-family: "Gilroy" !important;
+ font-size: 5.0em !important;
+ padding-left: 50px !important;
+}
+
+/* Responsive */
+@media (max-width: 767px){
+    .home-section {
+     background-image: none;
+     width: 100%;
+    }
+
+    .img-fluid {
+     display: none;
+    }
+}

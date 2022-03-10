@@ -1,0 +1,38 @@
+
+.Background {
+ position: relative;
+ background-color: white;
+ padding-bottom: 70px !important;
+ padding-top: 70px !important;
+}
+
+.BestServices-Container {
+ background-color: #fff;
+ color: #313131 !important;
+ padding-top: 100px !important;
+ padding-bottom: 20px !important;
+ text-align: center;
+}
+
+@media (max-width: 767px) {
+ .BestServices-Background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ }
+
+ .BestServices-Background a {
+  margin-top: 110px;
+  margin-bottom: 110px;
+ }
+
+ .BestServices-Container h1,p {
+  text-align: center;
+ }
+
+ .BestServices-Container img {
+  width: 50%;
+  height: 50%;
+ }
+}

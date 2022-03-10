@@ -1,0 +1,89 @@
+@font-face {
+ font-family: "Gilroy";
+ src:url(/src/Assets/fonts/Gilroy-ExtraBold.otf);
+}
+  
+@font-face {
+ font-family: "Gilroy-light";
+ src:url(/src/Assets/fonts/Gilroy-Light.otf);
+}
+  
+@font-face {
+ font-family: "Gilroy-medium";
+ src:url(/src/Assets/fonts/gilroy-medium.otf);
+}
+  
+
+@media (max-width: 767px) {
+ .navbar {
+   padding: 1rem 2rem !important;
+   font-size: 1.4rem !important;
+   background-color: #FFF !important;
+   border-bottom: 1px solid #25A4AD;
+ }
+
+ .button-border {
+  border: transparent !important;
+ }
+
+ .navbar a {
+  color: #313131;
+ }
+ .navbar-nav .nav-item a::after {
+   display: none !important;
+ }
+  }
+  .navbar-brand {
+   color: rgb(250, 250, 250) !important;
+  }
+  
+  .logo-text {
+   font-family: "Gilroy";
+   padding-top: 15px;
+   color: #25A4AD;
+  }
+  
+  .nav-link a {
+   color: #313131 !important;
+  }
+  
+  .navbar-nav .nav-link {
+   color: white !important;
+   padding-right: 1rem !important;
+   padding-left: 1rem !important;
+  }
+  
+  .nav-link {
+   padding: 0.8rem 1rem !important;
+  }
+  
+@media (max-width: 767px) {
+ .nav-link {
+   padding: 0.7rem 1rem !important;
+ }
+}
+  
+.navbar-nav .nav-item {
+ position: relative;
+ margin-left: 20px;
+}
+  
+.nav-item .button-border {
+ border: 1px solid #313131;
+}
+  
+.navbar-nav .nav-item a {
+ font-family: "Gilroy-medium" !important; 
+ color: #313131 !important;
+ font-weight: 300 !important;
+ transition: all 0.3s ease-out 0s;
+ position: relative;
+ z-index: 1;
+}
+  
+.nav-item a:hover {
+ transition: all 0.3s ease-out 0s;
+ border-color: #25A4AD;
+ color: #25A4AD !important;
+}
+  

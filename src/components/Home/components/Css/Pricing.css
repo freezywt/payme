@@ -1,0 +1,65 @@
+.Pricing-Background {
+ position: relative;
+ padding-bottom: 70px !important;
+ padding-top: 70px !important;
+}
+
+.Pricing-Content {
+ color: #313131 !important;
+ padding-top: 100px !important;
+ padding-bottom: 20px !important;
+ text-align: center;
+}
+
+.Pricing-Grid {
+ margin-top: 50px;
+ text-align: center;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 3rem;
+ counter-reset: grid-counter;
+}
+
+.Pricing-Grid article {
+ color: #313131;
+ padding: 50px;
+ border: 1px solid #D8D8D8;
+}
+
+.Pricing-Grid article:first-child {
+ margin-top: 50px;
+}
+
+.Pricing-Grid article:nth-child(2) {
+ color: #25A4AD;
+ border-color: transparent;
+ box-shadow: 5px 5px 18px -1px rgba(0,0,0,0.20);
+ background-color: white;
+ margin-bottom: 50px;
+}
+
+.Pricing-Grid article:last-child {
+ margin-top: 50px;
+}
+
+.Pricing-Grid article ul li {
+ text-align: left;
+}
+
+@media (max-width: 767px) {
+ .Pricing-Grid {
+  grid-template-columns: repeat(1, 1fr);
+ }
+
+ .Pricing-Grid article:first-child {
+  margin-top: 0;
+ }
+
+ .Pricing-Grid article:nth-child(2) {
+  margin-bottom: 0;
+ }
+
+ .Pricing-Grid article:last-child {
+  margin-top: 0;
+ }
+}

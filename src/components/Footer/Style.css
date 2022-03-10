@@ -1,0 +1,66 @@
+.Background {
+ background-color: #313131;
+ position: relative;
+ padding-bottom: 70px !important;
+ padding-top: 70px !important;
+}
+
+.Section {
+ color: #fff !important;
+ padding-top: 100px !important;
+ padding-bottom: 20px !important;
+ text-align: center;
+}
+
+.Section h1 {
+ color: #fff;
+ margin-bottom: 150;
+}
+
+.footer {
+ background-color: #2C2C2C;
+ bottom: 0 !important;
+ padding-top: 10px !important;
+ padding-bottom: 8px !important ;
+}
+
+.Footer-Grid {
+ margin-top: 50px;
+ display: grid;
+ color: #fff;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 3rem;
+ counter-reset: grid-counter;
+}
+
+.Footer-Grid p:first-child {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+  
+.Footer-Grid article {
+ text-align: left;
+}
+
+.Footer-Grid article a {
+ color: #fff !important;
+ transition: all 5ms ease;
+}
+
+.Footer-Grid article a:hover {
+    text-decoration: none;
+    color: #25A4AD !important;
+}
+  
+.Footer-Grid article ul {
+ list-style: none;
+}
+  
+.Footer-Grid article ul li:first-child {
+ font-weight: bold;
+}
+  
+.Footer-Grid article ul li {
+ margin: 30px;
+}

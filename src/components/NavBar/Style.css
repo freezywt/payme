@@ -1,0 +1,90 @@
+@font-face {
+ font-family: "Gilroy";
+ src:url(/src/Assets/fonts/Gilroy-ExtraBold.otf);
+}
+
+ @font-face {
+ font-family: "Gilroy-light";
+ src:url(/src/Assets/fonts/Gilroy-Light.otf);
+ }
+
+@font-face {
+ font-family: "Gilroy-medium";
+ src:url(/src/Assets/fonts/gilroy-medium.otf);
+}
+
+a {
+ color: #313131 !important;
+}
+
+.logo-text {
+ font-family: "Gilroy";
+ padding-top: 15px;
+ color: #25A4AD;
+}
+
+.sticky {
+ background-color: #fff !important;
+ transition: all 0.3s ease-out 0s !important;
+ box-shadow: 5px 5px 18px -1px rgba(0,0,0,0.20) !important;
+ backdrop-filter: blur(15px) !important;
+}
+
+.navbar {
+ position: fixed !important;
+ transition: all 0.3s ease-out 0s !important;
+ padding: 0.3rem 2rem !important;
+ font-size: 1.2rem !important;
+}
+
+.navbar-toggler {
+ padding: 0.25rem 1.5rem !important;
+ position: relative !important;
+ background-color: transparent !important;
+ border-color: transparent !important;
+}
+
+.navbar-toggler span {
+ display: block !important;
+ background-color: #25A4AD !important;
+ height: 4px !important;
+ width: 27px !important;
+ margin-top: 5px !important;
+ margin-bottom: 5px !important;
+ transform: rotate(0deg) !important;
+ left: 0 !important;
+ opacity: 1 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+ outline: 0 !important;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+ transition: transform 0.35s ease-in-out !important;
+ transition: transform 0.35s ease-in-out !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+ position: absolute !important;
+ left: 12px !important;
+ top: 10px !important;
+ transform: rotate(135deg) !important;
+ opacity: 0.9 !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+ height: 12px !important;
+ visibility: hidden !important;
+ background-color: transparent !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+ position: absolute !important;
+ left: 12px !important;
+ top: 10px !important;
+ transform: rotate(-135deg) !important;
+ opacity: 0.9 !important;
+}

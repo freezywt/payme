@@ -1,0 +1,51 @@
+.Button-without-background {
+ padding: 25px;
+ padding-top: 15px !important;
+ padding-bottom: 15px !important;
+ color: #25A4AD !important;
+ border: 1.5px solid #25A4AD;
+}
+
+.Button-without-background:hover {
+ border: #25A4AD;
+ background-color: #25A4AD;
+ color: white !important;
+ text-decoration: none;
+}
+
+.Button-white {
+ padding: 25px;
+ padding-top: 15px !important;
+ padding-bottom: 15px !important;
+ color: #fff !important;
+ border: 1.5px solid #fff;
+ text-align: center;
+ transition: all 5ms;
+}
+
+.Button-white:hover {
+ color: #313131 !important;
+ background-color: white;
+ text-decoration: none;
+}
+
+.Button-with-background {
+ padding: 25px;
+ padding-top: 15px !important;
+ padding-bottom: 15px !important;
+ padding-top: 15px !important;
+ color: white !important;
+ border: 1.5 px solid #25A4AD;
+ background-color: #25A4AD;
+}
+
+.Button-with-background:hover {
+ background-color: white;
+ color: #25A4AD !important;
+ border: 1.5 px solid #25A4AD !important;
+ text-decoration: none;
+}
+
+.Button-shaddow {
+ box-shadow: 5px 5px 18px -1px rgba(0,0,0,0.20);
+}
